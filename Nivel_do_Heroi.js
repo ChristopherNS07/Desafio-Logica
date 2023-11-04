@@ -29,13 +29,13 @@ let nome = 'Christopher'
 
 let = xpPersonagem = 15500;
 
-let lista = ['Ferro','Bronze','Prata','Ouro','Platina','Ascendente','Imortal','Radiante'];
+let listaElo = ['Ferro','Bronze','Prata','Ouro','Platina','Ascendente','Imortal','Radiante'];
 
 let rank;
 
 
-for (i = 0; i < lista.length; i++){
-let elo = lista[i];
+for (i = 0; i < listaElo.length; i++){
+let elo = listaElo[i];
    
     if (elo === 'Ferro' && xpPersonagem >=0 && xpPersonagem <= 1000){
       rank = elo;
