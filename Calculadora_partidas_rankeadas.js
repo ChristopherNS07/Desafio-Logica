@@ -27,9 +27,10 @@
 
 let nome = 'Christopher'
 
-let saldoTotal = saldoSoma(45,15)
+let saldoTotal = saldoSubtracao(45,15)
 
-function saldoSoma(vitorias,derrotas){
+// Função para calcular a o saldo total
+function saldoSubtracao(vitorias,derrotas){
 let saldoRankeadas = vitorias - derrotas
     return saldoRankeadas
 }
@@ -38,7 +39,7 @@ let lista = ['Ferro','Bronze','Prata','Ouro','Diamante','Lendário','Imortal'];
 
 let nivel;
 
-
+// Estrutura de decisão dentro de uma estrutura de repetição para passar por cada item da lista e selecionar o que corresponder nas condições. 
 for (i = 0; i < lista.length; i++){
 let elo = lista[i];
    
