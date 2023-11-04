@@ -29,7 +29,7 @@ let nome = 'Christopher'
 
 let saldoTotal = saldoSubtracao(45,15)
 
-// Função para calcular a o saldo total
+// Função para calcular o saldo total
 function saldoSubtracao(vitorias,derrotas){
 let saldoRankeadas = vitorias - derrotas
     return saldoRankeadas
