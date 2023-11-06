@@ -71,7 +71,7 @@ class game{
         console.log(`O herói ${this.nome} da classe ${this.classe} atacou usando ${tipoAtaque}`)
     }
 }
-// Istancia criada para poder chamar o metodo da nossa classe a seguir
+// Instância criada para poder chamar o metodo da nossa classe a seguir
 let resultado = new game('Arthur',19,'mago')
 
 resultado.ataque()
