@@ -61,7 +61,7 @@ class game{
             else if (this.classe === 'guerreiro' && tipoDano === 'espada'){
                 tipoAtaque = tipoDano
             }
-            else if (this.classe === 'monge' && tipoDano === 'artes marciais'){
+            else if (this.classe === 'monge' && tipoDano === 'artes marciais'){ 
                 tipoAtaque = tipoDano
             }
             else if (this.classe === 'ninja' && tipoDano === 'shuriken'){
